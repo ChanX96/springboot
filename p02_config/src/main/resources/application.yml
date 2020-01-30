@@ -1,0 +1,40 @@
+#person:
+#  name: haha${random.uuid}
+#  age: 8
+#  happy: false
+#  birthday: 2019/11/02
+#  map: {k1: v1, k2: v2}
+#  list:
+#    -code
+#    -music
+#    -girl
+#  Dog:
+#    name: ${person.hello:hello}_旺财
+#    age: 3
+
+# springboot多环境配置，可以选择激活哪一个配置文件
+# 2020-01-30 12:28:56.858  INFO 9027 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+#spring:
+#  profiles:
+#    active: dev
+
+# 多文档模块
+server:
+  port: 8080
+spring:
+  profiles:
+    active: aaa
+
+---
+server:
+  port: 8083
+spring:
+  profiles: aaa
+
+---
+server:
+  port: 8082
+spring:
+  profiles: bbb
+
+# 配置文件到底能写什么? spring.factories

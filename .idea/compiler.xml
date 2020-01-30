@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="p02_config" />
         <module name="p01_helloworld" />
+        <module name="p03_web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -14,6 +16,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="p01_helloworld" options="-parameters" />
+      <module name="p02_config" options="-parameters" />
+      <module name="p03_web" options="-parameters" />
     </option>
   </component>
 </project>
