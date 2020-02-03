@@ -2,13 +2,15 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="p02_config" />
-        <module name="p01_helloworld" />
         <module name="p03_web" />
+        <module name="p01_helloworld" />
+        <module name="p04_project" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -18,6 +20,7 @@
       <module name="p01_helloworld" options="-parameters" />
       <module name="p02_config" options="-parameters" />
       <module name="p03_web" options="-parameters" />
+      <module name="p04_project" options="-parameters" />
     </option>
   </component>
 </project>
