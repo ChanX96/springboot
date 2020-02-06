@@ -24,4 +24,10 @@ public class LoginController {
         model.addAttribute("msg", "用户名或密码错误");
         return "index";
     }
+
+    @RequestMapping("/loginout")
+    public String loginout(HttpSession session) {
+        session.invalidate();
+        return "redirect:/index.html";
+    }
 }

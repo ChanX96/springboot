@@ -5,5 +5,8 @@
     <file url="file://$PROJECT_DIR$/p02_config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/p03_web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/p04_project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p05_data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p06_mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p07_security/src/main/java" charset="UTF-8" />
   </component>
 </project>
